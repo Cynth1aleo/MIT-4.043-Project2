@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Color Sensor Data</title>
+<script>
+// Fetch data from server and update the background color
+function fetchData() {
+  fetch('/data')
+    .then(response => response.text())
+    .then(data => {
+      document.body.style.backgroundColor = `rgb(${data})`;
+      document.getElementById('colorData').textContent = `Current RGB: ${data}`;
+    })
+    .catch(error => console.error('Error:', error));
+}
+
+setInterval(fetchData, 1000); // Refresh data every second
+</script>
+</head>
+<body>
+<h1>Color Sensor Data</h1>
+<p id="colorData">Waiting for data...</p>
+</body>
+</html>
