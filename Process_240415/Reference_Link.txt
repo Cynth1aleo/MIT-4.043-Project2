@@ -1,0 +1,11 @@
+https://how2electronics.com/interfacing-pn532-nfc-rfid-module-with-arduino/
+
+https://www.electroniclinic.com/pn532-rfid-nfc-module-with-arduino-how-to-use-hsu-uart-spi-i2c/
+
+https://github.com/rdiot/rdiot-s192/tree/master
+
+https://www.youtube.com/watch?v=PXE8nsXh4eg&t=358s
+
+https://techtalkies.in/2024/02/20/esp8266-color-picker-for-pc/?i=1
+
+https://www.makerguides.com/tcs34725-rgb-color-sensor-with-arduino/
